@@ -11,7 +11,3 @@ conn = sqlite3.connect('world_bank.db')
 df.to_sql('World_bank', conn, if_exists="replace", index=False)
 
 print('Data loaded into SQLite database successfully.')
-
-# Check the first few rows
-df = pd.read_sql_query("SELECT * FROM world_bank LIMIT 5;", conn)
-print(df.head())
