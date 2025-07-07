@@ -1,4 +1,4 @@
-**🌍 Global Economic Insights Dashbaord**
+**🌍 Global Economic Insights Dashboard**
 
 This project analyzes key global economic indicators-such as GDP, inflation, unemployment, and public debt-across countries using data from the World Bank. It uses Python for data cleaning, SQL for querying insights, and Tableau to create an interactive dashboard that allows users to explore macroeconomic trends by year and country.
 
